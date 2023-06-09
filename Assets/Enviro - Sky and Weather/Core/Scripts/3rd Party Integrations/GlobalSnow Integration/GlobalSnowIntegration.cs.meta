@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Enviro - Sky and Weather/Core/Scripts/3rd Party Integrations/GlobalSnow Integration/GlobalSnowIntegration.cs.meta
-guid: 4927653b3cb55284081ab032e41fa602
-========
-guid: d654527ba5fefc34d83f907eb1b04eb9
->>>>>>>> main:Assets/Dicky Project/script/ProjectileGuns.cs.meta
+:Assets/Enviro - Sky and Weather/Core/Scripts/3rd Party Integrations/GlobalSnow Integration/GlobalSnowIntegration.cs.meta
+guid: 11711c08a9c36bb4b8be488e5a60a0a6
+:Assets/Dicky Project/script/ProjectileGuns.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
