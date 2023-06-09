@@ -39,6 +39,20 @@
      <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
      <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
      <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\WAPI Integration\Editor\EnviroWAPIEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\Editor\EnviroSkyEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Editor\EnviroSkyMgrEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\Editor\EnviroVolumeLightEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Editor\EnviroInteriorEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Pegasus Integration\Editor\TriggerControlEnviroEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Editor\EnviroReflectionProbeEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Enviro Lite\Scripts\Editor\EnviroSkyLiteEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Editor\EnviroRemoveDefines.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Editor\EnviroWeatherPresetEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\FogVolume3 Integration\Editor\EnviroFogVolumeEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Enviro Lite\Scripts\Editor\EnviroAddDefineSymbolsLW.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Editor\EnviroZoneEditor.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\Editor\EnviroAddDefineSymbolsHD.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -635,12 +649,6 @@
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>C:\TUGAS INFORMATIKA\SEMESTER 8\PRAK PEMGAME\TugasAkhirPemgame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Updater">
-        <HintPath>C:\TUGAS INFORMATIKA\SEMESTER 8\PRAK PEMGAME\TugasAkhirPemgame\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-        <HintPath>C:\TUGAS INFORMATIKA\SEMESTER 8\PRAK PEMGAME\TugasAkhirPemgame\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\TUGAS INFORMATIKA\SEMESTER 8\PRAK PEMGAME\TugasAkhirPemgame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
