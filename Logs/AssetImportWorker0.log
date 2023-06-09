@@ -1,0 +1,144 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 22621.1778; Version 2009; 64bit' Language: 'en' Physical Memory: 7930 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/TUGAS INFORMATIKA/SEMESTER 8/PRAK PEMGAME/TugasAkhirPemgame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63552
+Successfully changed project path to: C:/TUGAS INFORMATIKA/SEMESTER 8/PRAK PEMGAME/TugasAkhirPemgame
+C:/TUGAS INFORMATIKA/SEMESTER 8/PRAK PEMGAME/TugasAkhirPemgame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/TUGAS INFORMATIKA/SEMESTER 8/PRAK PEMGAME/TugasAkhirPemgame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   
+    VRAM:     3977 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001246 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1332 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 1780.
+Total: 3.656400 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.025300 ms MarkObjects: 1.450200 ms  DeleteObjects: 2.033000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/HUD/health-bar.png
+  artifactKey: Guid(9ee704b313d029042aee6c0ab3765d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HUD/health-bar.png using Guid(9ee704b313d029042aee6c0ab3765d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b3fd5bf3b6a058de6d5dc4ef4fbbd1') in 0.161869 seconds
+  Import took 0.164613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001407 seconds.
+  path: Assets/HUD
+  artifactKey: Guid(b68c69522f1c32342bd450aec6801cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HUD using Guid(b68c69522f1c32342bd450aec6801cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8a6e9f1d952bf89210ca833461ec64') in 0.005821 seconds
+  Import took 0.008573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/HUD/energy.png
+  artifactKey: Guid(17fdb840a19475049b306ca57024d289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HUD/energy.png using Guid(17fdb840a19475049b306ca57024d289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a21cdfca40dafef3331c98526838155') in 0.014802 seconds
+  Import took 0.017181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/HUD/health.png
+  artifactKey: Guid(dd93fedcd50f1934e80296e3f110cd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HUD/health.png using Guid(dd93fedcd50f1934e80296e3f110cd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e391f43e4bfd1098162d67119205ea') in 0.011487 seconds
+  Import took 0.014717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.341161 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(3530886dbdeb6ca4ca524ddae15f90b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(3530886dbdeb6ca4ca524ddae15f90b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfea773e58d25b1b08f7750cf92290d2') in 0.007787 seconds
+  Import took 0.012516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059670 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(ef3e49bf812f260429e0beb55dbf437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(ef3e49bf812f260429e0beb55dbf437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee456db5345394738743345843397a6') in 0.025979 seconds
+  Import took 0.028826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.785932 seconds.
+  path: Assets/Prefabs/hud.prefab
+  artifactKey: Guid(ef3e49bf812f260429e0beb55dbf437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hud.prefab using Guid(ef3e49bf812f260429e0beb55dbf437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5866b1a73ec2805f29f6ae84d080c8f') in 0.009464 seconds
+  Import took 0.012343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.522658 seconds.
+  path: Assets/Prefabs/canvas.prefab
+  artifactKey: Guid(70d3926238a464a4ab3d04ab15e5b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/canvas.prefab using Guid(70d3926238a464a4ab3d04ab15e5b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32771643c2e79ac53985ca29cd5a5c55') in 0.051989 seconds
+  Import took 0.055336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002982 seconds.
+  path: Assets/Prefabs/canvas.prefab
+  artifactKey: Guid(70d3926238a464a4ab3d04ab15e5b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/canvas.prefab using Guid(70d3926238a464a4ab3d04ab15e5b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32771643c2e79ac53985ca29cd5a5c55') in 0.022172 seconds
+  Import took 0.024821 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

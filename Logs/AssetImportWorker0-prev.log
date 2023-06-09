@@ -1,0 +1,144 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 22621.1778; Version 2009; 64bit' Language: 'en' Physical Memory: 7930 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/TUGAS INFORMATIKA/SEMESTER 8/PRAK PEMGAME/TugasAkhirPemgame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62923
+Successfully changed project path to: C:/TUGAS INFORMATIKA/SEMESTER 8/PRAK PEMGAME/TugasAkhirPemgame
+C:/TUGAS INFORMATIKA/SEMESTER 8/PRAK PEMGAME/TugasAkhirPemgame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/TUGAS INFORMATIKA/SEMESTER 8/PRAK PEMGAME/TugasAkhirPemgame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   
+    VRAM:     3977 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001236 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.824 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.616 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1332 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 1780.
+Total: 3.542800 ms (FindLiveObjects: 0.140700 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.385500 ms  DeleteObjects: 1.988900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Dicky Project
+  artifactKey: Guid(76e9972960813454684bf18d519ff578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dicky Project using Guid(76e9972960813454684bf18d519ff578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd89ddf6de4941494e7e277fb0f42202') in 0.010302 seconds
+  Import took 0.014352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.244988 seconds.
+  path: Assets/MainMenuManager
+  artifactKey: Guid(543c87d038d25dc4083964298bcdaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenuManager using Guid(543c87d038d25dc4083964298bcdaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd367a07e449b7a2414ab7e640b6546f3') in 0.007555 seconds
+  Import took 0.011454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083902 seconds.
+  path: Assets/MainMenuManager/GothTitan-0W5md.ttf
+  artifactKey: Guid(ce6f4e9118c8c7e44bc4e91786ba0241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenuManager/GothTitan-0W5md.ttf using Guid(ce6f4e9118c8c7e44bc4e91786ba0241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaff3f311e9ee46f44393fb3e07368a7') in 0.183076 seconds
+  Import took 0.185805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MainMenuManager/logo.png
+  artifactKey: Guid(48cd703b9352ca745a8a867f018f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenuManager/logo.png using Guid(48cd703b9352ca745a8a867f018f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dac1a607a8dfac7baccf42576178c6') in 0.075067 seconds
+  Import took 0.077736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.242761 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c6cfe70d53c7a274f8708a695410a02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c6cfe70d53c7a274f8708a695410a02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bddfbfb1e47676906fc05463fd8853') in 0.007318 seconds
+  Import took 0.010165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.877895 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6720f49d74db202489a35d2f62eeb517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6720f49d74db202489a35d2f62eeb517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cba23caff50f75475709a64a64fa32f') in 0.007484 seconds
+  Import took 0.010331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.685067 seconds.
+  path: Assets/Simple Buttons
+  artifactKey: Guid(aa0cde06abc6e4d41954196c2f1aca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Buttons using Guid(aa0cde06abc6e4d41954196c2f1aca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c464ab5ed7a36d4581fdcd153710f799') in 0.006936 seconds
+  Import took 0.010257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.813480 seconds.
+  path: Assets/Standard Assets
+  artifactKey: Guid(9499edc3f629aa048961cd5fa7a983de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets using Guid(9499edc3f629aa048961cd5fa7a983de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cb565074f15e886e13fe060f8d82a6') in 0.006742 seconds
+  Import took 0.010134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.840324 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd8c1207ef78387a1a667feff49d0b3') in 0.006055 seconds
+  Import took 0.009574 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
