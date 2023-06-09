@@ -361,6 +361,20 @@
 "Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_AdvancedEdgeFluttering.cs"
 "Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_DetailsEnum.cs"
 "Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_ShaderGUI.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/3rd Party Integrations/FogVolume3 Integration/Editor/EnviroFogVolumeEditor.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/3rd Party Integrations/Pegasus Integration/Editor/TriggerControlEnviroEditor.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/3rd Party Integrations/WAPI Integration/Editor/EnviroWAPIEditor.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/Editor/EnviroInteriorEditor.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/Editor/EnviroReflectionProbeEditor.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/Editor/EnviroRemoveDefines.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/Editor/EnviroSkyMgrEditor.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/Editor/EnviroWeatherPresetEditor.cs"
+"Assets/Enviro - Sky and Weather/Core/Scripts/Editor/EnviroZoneEditor.cs"
+"Assets/Enviro - Sky and Weather/Enviro Lite/Scripts/Editor/EnviroAddDefineSymbolsLW.cs"
+"Assets/Enviro - Sky and Weather/Enviro Lite/Scripts/Editor/EnviroSkyLiteEditor.cs"
+"Assets/Enviro - Sky and Weather/Enviro Standard/Scripts/Editor/EnviroAddDefineSymbolsHD.cs"
+"Assets/Enviro - Sky and Weather/Enviro Standard/Scripts/Editor/EnviroSkyEditor.cs"
+"Assets/Enviro - Sky and Weather/Enviro Standard/Scripts/Editor/EnviroVolumeLightEditor.cs"
 -langversion:9.0
 
 /deterministic
