@@ -27,7 +27,7 @@ public class ProjectileGuns : MonoBehaviour
     }
 
     private void MyInput(){
-        if(allowButonHold) shooting = Input.GetKey(KeyCode.Mouse0);
+        if(allowButtonHold) shooting = Input.GetKey(KeyCode.Mouse0);
         else shooting = Input.GetKeyDown(KeyCode.Mouse0);
     }
 
