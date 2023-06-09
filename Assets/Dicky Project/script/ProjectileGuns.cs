@@ -32,8 +32,6 @@ public class ProjectileGuns : MonoBehaviour
 
         if(readyToShoot && shooting && !reloading && bulletsLeft > 0){
             bulletsShot = 0;
-
-            Shoot();
         }
     }
 
