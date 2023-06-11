@@ -6,7 +6,7 @@ public class AnimationFunction : MonoBehaviour
 {
     [SerializeField] MenuButtonController menuButtonController;
 
-    void PlaySound(AudioClip witchSound)
+    public void PlaySound(AudioClip witchSound)
     {
         menuButtonController.audioSource.PlayOneShot(witchSound);
     }
