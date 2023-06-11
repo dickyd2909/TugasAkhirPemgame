@@ -22,12 +22,7 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] int currIndex = 0;
 
 
-    public void loadlevel (int sceneIndex) {
-        
-        loadingScreens.SetActive(true);
-        StartCoroutine(LoadAsync(sceneIndex));
-        loadStatus = false;
-    }
+    
 
     void Start()
     {
@@ -48,6 +43,12 @@ public class SceneLoader : MonoBehaviour
         loadStatus = true;
     }
 
+    public void loadlevel (int sceneIndex) {
+        
+        loadingScreens.SetActive(true);
+        StartCoroutine(LoadAsync(sceneIndex));
+        loadStatus = false;
+    }
     public void SaveGame (int sceneIndex) {
         loadingScreens.SetActive(true);
         StartCoroutine(LoadAsync(sceneIndex));
