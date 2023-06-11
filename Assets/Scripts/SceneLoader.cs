@@ -8,6 +8,7 @@ using TMPro;
 public class SceneLoader : MonoBehaviour
 {
     public GameObject loadingScreens;
+    public GameObject aboutGame;
     public Slider loadingBar;
     public TextMeshProUGUI loadingText;
     public static bool loadStatus;
@@ -16,6 +17,29 @@ public class SceneLoader : MonoBehaviour
         
         loadingScreens.SetActive(true);
         StartCoroutine(LoadAsync(sceneIndex));
+        loadStatus = false;
+    }
+
+    public void LoadSaveGame (int sceneIndex) {
+        loadingScreens.SetActive(true);
+        StartCoroutine(LoadAsync(sceneIndex));
+        loadStatus = true;
+    }
+
+    public void SaveGame (int sceneIndex) {
+        loadingScreens.SetActive(true);
+        StartCoroutine(LoadAsync(sceneIndex));
+        loadStatus = true;
+    }
+
+    public void AboutGame(){
+        aboutGame = GameObject.Find("About");
+        aboutGame.SetActive(true);
+    }
+
+    public void doExitGame(){
+        Application.Quit();
+        Debug.Log("Game is exiting");
     }
 
     IEnumerator LoadAsync(int sceneIndex)
