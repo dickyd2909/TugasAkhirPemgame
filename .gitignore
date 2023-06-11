@@ -189,3 +189,4 @@ Library/PackageManager/ProjectCache
 Library/SourceAssetDB
 Library/SourceAssetDB
 *.log
+*.pdb
