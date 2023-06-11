@@ -19,11 +19,11 @@ public class sistem_darah : MonoBehaviour
     {
         if(darah_player>0)
         {
-            Debug.Log("Player Hidup");
+            // Debug.Log("Player Hidup");
         }
         else
         {
-            Debug.Log("Player Mati");
+            // Debug.Log("Player Mati");
             darah_player = 0;
         }
     }
