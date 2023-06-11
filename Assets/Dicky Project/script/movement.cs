@@ -10,13 +10,14 @@ public class movement : MonoBehaviour
     [SerializeField] TextMeshProUGUI _nHighScore;
     public GameObject player;
     private CharacterController carkon;
-    private float  highscore,x,y,z;
+    private float  highscore;
     private int score;
     // Start is called before the first frame update
     void Start()
     {
         carkon = player.GetComponent<CharacterController>();
         score = 0;
+        PlayerPrefs.SetInt("HighScore",0);
         _nScore.GetComponent<TextMeshProUGUI>().text = score.ToString();
         _nHighScore.GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetInt("HighScore",0).ToString();
     }
