@@ -8,10 +8,40 @@ using TMPro;
 public class SceneLoader : MonoBehaviour
 {
     public GameObject loadingScreens;
-    public GameObject aboutGame;
+    public Transform aboutTeam;
+    public GameObject about;
+    public List<GameObject> team = new List<GameObject>();
+    public GameObject next;
+    public GameObject prev;
+    public GameObject close;
     public Slider loadingBar;
     public TextMeshProUGUI loadingText;
     public static bool loadStatus;
+
+    [SerializeField] int index = 0;
+    [SerializeField] int currIndex = 0;
+
+
+    
+
+    void Start()
+    {
+        for(int i = 0; i < team.Count; i++)
+        {
+            GameObject go = Instantiate(team[i], aboutTeam);
+
+            if(i>0)
+            {
+                go.SetActive(false);
+            }
+        } 
+        
+    }
+    public void LoadSaveGame (int sceneIndex) {
+        loadingScreens.SetActive(true);
+        StartCoroutine(LoadAsync(sceneIndex));
+        loadStatus = true;
+    }
 
     public void loadlevel (int sceneIndex) {
         
@@ -19,13 +49,6 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadAsync(sceneIndex));
         loadStatus = false;
     }
-
-    public void LoadSaveGame (int sceneIndex) {
-        loadingScreens.SetActive(true);
-        StartCoroutine(LoadAsync(sceneIndex));
-        loadStatus = true;
-    }
-
     public void SaveGame (int sceneIndex) {
         loadingScreens.SetActive(true);
         StartCoroutine(LoadAsync(sceneIndex));
@@ -33,8 +56,40 @@ public class SceneLoader : MonoBehaviour
     }
 
     public void AboutGame(){
-        aboutGame = GameObject.Find("About");
-        aboutGame.SetActive(true);
+        about.SetActive(true);
+    }
+    
+    
+
+    public void Next()
+    {
+        index++;
+        currIndex = index % team.Count;
+        ResetAllTeam();
+        aboutTeam.GetChild(currIndex).gameObject.SetActive(true);
+        
+    }
+
+    public void Prev()
+    {
+        index--;
+        currIndex = index % team.Count;
+        ResetAllTeam();
+        aboutTeam.GetChild(currIndex).gameObject.SetActive(true);
+        
+    }
+
+    public void Close()
+    {
+        about.SetActive(false);
+    }
+    
+    void ResetAllTeam()
+    {
+        foreach (Transform item in aboutTeam)
+        {
+            item.gameObject.SetActive(false);
+        }
     }
 
     public void doExitGame(){

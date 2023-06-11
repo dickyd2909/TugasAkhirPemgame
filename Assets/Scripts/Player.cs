@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         position.y = data.position[1];
         position.z = data.position[2];
 
-        EnviroSky.instance.SetTime(1, 1, data.time[0], data.time[1], data.time[2]);
+        // EnviroSky.instance.SetTime(1, 1, data.time[0], data.time[1], data.time[2]);
         transform.position = position;
 
     }
