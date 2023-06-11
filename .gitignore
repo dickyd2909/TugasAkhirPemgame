@@ -176,3 +176,16 @@ Library/SourceAssetDB
 *.json
 *.log
 *.asset
+Library/PackageManager/ProjectCache
+Library/PackageManager/ProjectCache
+*.md5
+*.asset
+*.db
+*.db
+*.db
+*.db
+*.log
+*.log
+Library/SourceAssetDB
+Library/SourceAssetDB
+*.log
