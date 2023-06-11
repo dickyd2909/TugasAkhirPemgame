@@ -149,3 +149,10 @@ Library/SourceAssetDB
 *.log
 *.asset
 *.dwlt
+Library/ArtifactDB
+Library/ArtifactDB-lock
+*.asset
+*.dll
+*.pdb
+*.json
+*.log
