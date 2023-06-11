@@ -28,8 +28,8 @@ public class animasi : MonoBehaviour
 
         nilai_x = player.GetComponent<movement>().x;
         nilai_z = player.GetComponent<movement>().z;
-        status_ground = player.GetComponent<movement>().isGround;
-        kecepatan_player = player.GetComponent<movement>().speed;
+        // status_ground = player.GetComponent<movement>().isGround;
+        // kecepatan_player = player.GetComponent<movement>().speed;
 
         anim.SetFloat("x", nilai_x);
         anim.SetFloat("z", nilai_z);
