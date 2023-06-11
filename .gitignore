@@ -190,3 +190,11 @@ Library/SourceAssetDB
 Library/SourceAssetDB
 *.log
 *.pdb
+*.json
+*.digestcache
+*.digestcache
+*.state
+*.pid
+*.db
+Library/SourceAssetDB
+*.dwlt
