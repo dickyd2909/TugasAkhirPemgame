@@ -8,7 +8,7 @@ public class pergerakan_player : MonoBehaviour
 
     
     //MOVEMENT
-    [SerializeField] public float kecepatan;
+    public float kecepatan;
     public float x;
     public float z;
 
