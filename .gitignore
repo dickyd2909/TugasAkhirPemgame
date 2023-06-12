@@ -198,3 +198,12 @@ Library/SourceAssetDB
 *.db
 Library/SourceAssetDB
 *.dwlt
+*.json
+*.digestcache
+*.json
+*.state
+*.pid
+*.db
+Library/ShaderCache/EditorEncounteredVariants
+Library/SourceAssetDB
+*.dwlt
