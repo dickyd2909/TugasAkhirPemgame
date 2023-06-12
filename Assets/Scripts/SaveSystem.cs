@@ -7,7 +7,7 @@ public static class SaveSystem
     public static void SavePlayer (Player player)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/savegame.pemgame";
+        string path = Application.persistentDataPath + "/player.pemgame";
         FileStream stream = new FileStream(path, FileMode.Create);
 
         PlayerData data = new PlayerData(player);
@@ -15,11 +15,14 @@ public static class SaveSystem
         formatter.Serialize(stream, data);
 
         stream.Close();
+        
+
+        Debug.Log("Game Saved-!");
     }
 
-    public static PlayerData loadPlayer()
+    public static PlayerData LoadPlayer()
     {
-        string path = Application.persistentDataPath + "/savegame.pemgame";
+        string path = Application.persistentDataPath + "/player.pemgame";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
@@ -30,7 +33,7 @@ public static class SaveSystem
             stream.Close();
             return data;
         }else{
-            Debug.LogError("Save File Tidak di temukan di " +path);
+            Debug.LogError("Save File Tidak di temukan di " + path);
             return null;
         }
     }

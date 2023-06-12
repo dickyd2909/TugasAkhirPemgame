@@ -13,15 +13,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void LoadPlayer()
     {
-        PlayerData data = SaveSystem.loadPlayer();
+        PlayerData data = SaveSystem.LoadPlayer();
 
         Vector3 position;
         position.x = data.position[0];
@@ -30,6 +24,6 @@ public class Player : MonoBehaviour
 
         // EnviroSky.instance.SetTime(1, 1, data.time[0], data.time[1], data.time[2]);
         transform.position = position;
-
     }
 }
+
