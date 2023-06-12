@@ -34,13 +34,13 @@ public class sistem_darah : MonoBehaviour
         {
             darah_player -= 30;
             Debug.Log("Darah ="+ darah_player);
-            info = "You was tring to eat an poisonous mushroom";
+            info = "U was trying to eat an poisonous plant";
         }
         if (other.tag == "Enemy")
         {
             darah_player -= 10;
             Debug.Log("Darah =" + darah_player);
-            info = "You was killed by a spider";
+            info = "You was killed by virus";
         }
         if (other.tag == "Fire")
         {

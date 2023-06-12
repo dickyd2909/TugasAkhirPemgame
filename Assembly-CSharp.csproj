@@ -53,6 +53,7 @@
      <Compile Include="Assets\Enviro - Sky and Weather\Core\URP Support\Scripts\EnviroSunShaftsLWRP.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroSkyMgr.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\sistem_darah.cs" />
+     <Compile Include="Assets\Dicky Project\script\HealthSystem.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Models\VignetteModel.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroDayNightSwitch.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MegaSplat Integration\EnviroMegaSplatIntegration.cs" />
@@ -125,6 +126,7 @@
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\AQUAS Integration\EnviroAquasIntegration.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroEvents.cs" />
+     <Compile Include="Assets\Dicky Project\script\HUD.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Models\BloomModel.cs" />
      <Compile Include="Assets\Scripts\saveGame.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\obstacle.cs" />
