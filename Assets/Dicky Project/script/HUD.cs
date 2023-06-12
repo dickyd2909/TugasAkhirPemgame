@@ -112,8 +112,8 @@ public class HUDMaca : MonoBehaviour
         }
     }
 
-    // public void restart()
-    // {
-    //     SceneManager.LoadScene("MainGame");
-    // }
+    public void restart()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
