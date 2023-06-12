@@ -50,10 +50,10 @@ public class SceneLoader : MonoBehaviour
     }
     public void MainMenu (int sceneIndex) {
         
-        loadingScreens.SetActive(true);
-        StartCoroutine(LoadAsync(sceneIndex));
-        loadStatus = true;
-        SaveGamePlayer();
+        // loadingScreens.SetActive(true);
+        // StartCoroutine(LoadAsync(sceneIndex));
+        // loadStatus = true;
+        // SaveGamePlayer();
     }
 
     public void SaveGamePlayer () {

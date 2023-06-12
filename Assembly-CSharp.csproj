@@ -75,8 +75,8 @@
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Lux Integration\EnviroLUXIntegration.cs" />
      <Compile Include="Assets\Dicky Project\script\Bullet.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\PostProcessingModel.cs" />
-     <Compile Include="Assets\Enviro - Sky and Weather\Samples\Scripts\FPSController.cs" />
      <Compile Include="Assets\Scripts\GameLoader.cs" />
+     <Compile Include="Assets\Enviro - Sky and Weather\Samples\Scripts\FPSController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Enviro Lite\Scripts\Utilities\EnviroLiteAdditionalCamera.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\VignetteComponent.cs" />
