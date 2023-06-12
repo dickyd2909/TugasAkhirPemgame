@@ -13,7 +13,7 @@ public class pergerakan_player : MonoBehaviour
     public float z;
 
     //LOMPAT
-    [SerializeField] private float speed_jump = 3f;
+    [SerializeField] private float speed_jump = 1f;
 
     //JALAN
     [SerializeField] private float speed_jalan = 4f;
@@ -27,9 +27,10 @@ public class pergerakan_player : MonoBehaviour
     public bool isGrounded;
     Vector3 velocity;
 
+
+
     //REFERENSI
     private CharacterController controller;
-    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -76,11 +77,11 @@ public class pergerakan_player : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.LeftShift))
         {
-            kecepatan = speed_lari;
+            kecepatan = speed_jalan;
         }
         else
         {
-            kecepatan = speed_jalan;
+            kecepatan = speed_lari;
         }
         velocity.y += gravitasi * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);

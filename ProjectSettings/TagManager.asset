@@ -5,11 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstacle
-  - Obstacle_1
-  - Obstacle_2
-  - Obstacle_3
-  - Obstacle_4
-  - Obstacle_5
+  - Enemy
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -17,9 +14,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Enemy
   - 
   - 
   - 
