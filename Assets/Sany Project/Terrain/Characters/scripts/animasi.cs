@@ -25,10 +25,10 @@ public class animasi : MonoBehaviour
         nilai_x = player.GetComponent<pergerakan_player>().x;
         nilai_z = player.GetComponent<pergerakan_player>().z;
         status_ground = player.GetComponent<pergerakan_player>().isGrounded;
-        // kecepatan_player =  player.GetComponent<pergerakan_player>().kecepatan;
+        kecepatan_player =  player.GetComponent<pergerakan_player>().kecepatan;
         anim.SetFloat("x",nilai_x);
         anim.SetFloat("z", nilai_z);
         anim.SetBool("isGrounded", status_ground);
-        // anim.SetFloat("speed", kecepatan_player);
+        anim.SetFloat("speed", kecepatan_player);
     }
 }
