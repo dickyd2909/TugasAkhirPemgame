@@ -66,6 +66,7 @@
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\CTS Integration\EnviroCTSIntegration.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\Scripts\FPSController\CharController_Motor.cs" />
+     <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\FootstepScript.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Mirror Integration\EnviroMirrorPlayer.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\animasi.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
@@ -119,6 +120,7 @@
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroWeatherPreset.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\URP Support\Scripts\EnviroVolumeCloudsLWRP.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\URP Support\Scripts\EnviroMoonShaftsLWRP.cs" />
+     <Compile Include="Assets\Sany Project\Terrain\Obstacle\Script\EnemyAI.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\AQUAS Integration\EnviroAquasIntegration.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\FxaaComponent.cs" />
@@ -126,6 +128,7 @@
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Models\BloomModel.cs" />
      <Compile Include="Assets\Scripts\saveGame.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\obstacle.cs" />
+     <Compile Include="Assets\Sany Project\Terrain\Obstacle\Script\Obstacle.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\WAPI Integration\EnviroWorldAPIIntegration.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />

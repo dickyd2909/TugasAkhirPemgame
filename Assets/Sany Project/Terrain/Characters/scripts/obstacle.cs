@@ -5,15 +5,12 @@ using UnityEngine;
 public class obstacle : MonoBehaviour
 {
     private GameObject player;
-    private int score;
+    GameObject scoring;
+    int score;
     // Start is called before the first frame update
     void Start()
     {
-        if(score == 0){
-            score += 10;
-        }else{
-            score = score;
-        }
+        score = 0;
     }
 
     // Update is called once per frame
@@ -24,9 +21,9 @@ public class obstacle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) 
     {
-       if(other.tag == "Obstacle"){
-            score += 10;
-            Debug.Log(score);
-       }
+        if(other.tag == "Obstacle"){
+            // scoring.GetComponent<movement>().score +=10 ;
+            Debug.Log(scoring); 
+        }
     }
 }
