@@ -5,15 +5,12 @@ using UnityEngine;
 public class obstacle : MonoBehaviour
 {
     private GameObject player;
-    public Transform bulletSpawnPoint;
-    public GameObject prefab;
     GameObject scoring;
     int score;
     // Start is called before the first frame update
     void Start()
     {
         score = 0;
-        player = Instantiate(prefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);;
     }
 
     // Update is called once per frame
@@ -24,12 +21,9 @@ public class obstacle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) 
     {
-        if(player)
-        {
-            if(other.tag == "Obstacle"){
-                // scoring.GetComponent<movement>().score +=10 ;
-                Debug.Log(scoring); 
-            }
+        if(other.tag == "Obstacle"){
+            // scoring.GetComponent<movement>().score +=10 ;
+            Debug.Log(scoring); 
         }
     }
 }
