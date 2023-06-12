@@ -15,7 +15,7 @@ public class HUDManagerPini : MonoBehaviour
     public static bool loadStatus;
 
     public static bool GameIsPaused = false;
-    public Player playerInstance;
+    // public Player playerInstance;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,13 +56,7 @@ public class HUDManagerPini : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
     }
 
-    public void SaveGame (int sceneIndex) {
-        SaveSystem.SavePlayer(playerInstance);
-        
-        loadingScreens.SetActive(true);
-        StartCoroutine(LoadAsync(sceneIndex));
-        loadStatus = true;
-    }
+    
 
     IEnumerator LoadAsync(int sceneIndex)
     {

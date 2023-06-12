@@ -8,6 +8,6 @@ public class AnimationFunction : MonoBehaviour
 
     public void PlaySound(AudioClip witchSound)
     {
-        //menuButtonController.audioSource.PlayOneShot(witchSound);
+        menuButtonController.audioSource.PlayOneShot(witchSound);
     }
 }
