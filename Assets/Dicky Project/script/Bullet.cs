@@ -7,17 +7,23 @@ public class Bullet : MonoBehaviour
 {
 
     public float life = 3;
+    GameObject scoring;
+    int score;
  
     void Awake()
     {
-        Destroy(gameObject, life);
+        //Destroy(gameObject, life);
+        score = 0;
     }
  
-    void OnCollisionEnter(Collision collision)
-    {
-        // Destroy(collision.gameObject);
-        // Destroy(gameObject);
+    private void OnTriggerEnter(Collider other) {
+        if(other.tag == "Obstacle")
+        {
+           Destroy(other.gameObject);
+           Destroy(gameObject);
+        }
     }
+
     // public float life = 3;
     // private GameObject textobj;
     // private GameObject textHigh;
