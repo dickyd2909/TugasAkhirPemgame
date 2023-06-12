@@ -51,10 +51,27 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
             kena();
         }
+        if(other.tag == "Enemy")
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+            kena2();
+        }
     }
 
     private void kena(){
         move.score += 10;
+        Debug.Log(move.score);
+        textobj = GameObject.Find("TextScore");
+        textobj.GetComponent<TextMeshProUGUI>().text = move.score.ToString();
+        if(move.score > PlayerPrefs.GetInt("HighScore",0))
+        {
+            PlayerPrefs.SetInt("HighScore", move.score);
+            textHigh.GetComponent<TextMeshProUGUI>().text = move.score.ToString();
+        }
+    }
+    private void kena2(){
+        move.score += 20;
         Debug.Log(move.score);
         textobj = GameObject.Find("TextScore");
         textobj.GetComponent<TextMeshProUGUI>().text = move.score.ToString();
