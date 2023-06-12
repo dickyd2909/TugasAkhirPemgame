@@ -16,6 +16,7 @@ public class SceneLoader : MonoBehaviour
     public GameObject close;
     public Slider loadingBar;
     public TextMeshProUGUI loadingText;
+    public Player playerInstance;
     public static bool loadStatus;
 
     [SerializeField] int index = 0;
@@ -37,10 +38,30 @@ public class SceneLoader : MonoBehaviour
         } 
         
     }
+
+    void update()
+    {
+        SaveGamePlayer();
+    }
     public void LoadSaveGame (int sceneIndex) {
         loadingScreens.SetActive(true);
         StartCoroutine(LoadAsync(sceneIndex));
         loadStatus = true;
+    }
+    public void MainMenu (int sceneIndex) {
+        
+        loadingScreens.SetActive(true);
+        StartCoroutine(LoadAsync(sceneIndex));
+        loadStatus = true;
+        SaveGamePlayer();
+    }
+
+    public void SaveGamePlayer () {
+        
+        SaveSystem.SavePlayer(playerInstance);        
+        // loadingScreens.SetActive(true);
+        // StartCoroutine(LoadAsync(sceneIndex));
+        // loadStatus = false;
     }
 
     public void loadlevel (int sceneIndex) {
@@ -49,11 +70,7 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadAsync(sceneIndex));
         loadStatus = false;
     }
-    public void SaveGame (int sceneIndex) {
-        loadingScreens.SetActive(true);
-        StartCoroutine(LoadAsync(sceneIndex));
-        loadStatus = true;
-    }
+    
 
     public void AboutGame(){
         about.SetActive(true);
