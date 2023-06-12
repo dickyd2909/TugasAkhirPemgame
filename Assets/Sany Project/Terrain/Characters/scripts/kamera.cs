@@ -18,13 +18,17 @@ public class kamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mouseX += Input.GetAxis("Mouse X") * KecepatanRotasi;
-        mouseY -= Input.GetAxis("Mouse Y") * KecepatanRotasi;
+        if (!HUDManagerPini.GameIsPaused)
+        {
+            mouseX += Input.GetAxis("Mouse X") * KecepatanRotasi;
+            mouseY -= Input.GetAxis("Mouse Y") * KecepatanRotasi;
 
-        mouseY = Mathf.Clamp(mouseY, -35, 60);
-        transform.LookAt(target);
+            mouseY = Mathf.Clamp(mouseY, -35, 60);
+            transform.LookAt(target);
 
-        target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
-        player.rotation = Quaternion.Euler(0, mouseX, 0);
+            target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+            player.rotation = Quaternion.Euler(0, mouseX, 0);
+        }
+        
     }
 }

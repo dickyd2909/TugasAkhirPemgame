@@ -57,6 +57,7 @@
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroDayNightSwitch.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MegaSplat Integration\EnviroMegaSplatIntegration.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroAudioMixerSupport.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Dicky Project\script\movement.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\Utilities\EnviroAdditionalCamera.cs" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\TaaComponent.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Lux Integration\EnviroLUXIntegration.cs" />
+     <Compile Include="Assets\Dicky Project\script\Bullet.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\PostProcessingModel.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Samples\Scripts\FPSController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -100,10 +102,11 @@
      <Compile Include="Assets\Scripts\MenuButtonController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\pergerakan_player.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\URP Support\Scripts\EnviroBlitPassShafts.cs" />
-     <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\pergerakan_player.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\Scripts\PlayerData.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -120,6 +123,7 @@
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroEvents.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\obstacle.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\WAPI Integration\EnviroWorldAPIIntegration.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
@@ -149,6 +153,7 @@
      <Compile Include="Assets\Dicky Project\script\ProjectileGuns.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\Scripts\SaveSystem.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\Scripts\AnimationFunction.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\Scripts\DisableRenderer.cs" />
@@ -161,6 +166,7 @@
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroSeasonObjectSwitcher.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\Utilities\EnviroCloudsAnimateWithTime.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\URP Support\Scripts\EnviroFogLWRP.cs" />
+     <Compile Include="Assets\Scripts\Minimap.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Components\FogComponent.cs" />
@@ -171,10 +177,12 @@
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Characters\scripts\camera_shaking.cs" />
+     <Compile Include="Assets\Dicky Project\script\Gun.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Samples\Scripts\SampleHUDFPS.cs" />
+     <Compile Include="Assets\Scripts\HUDManagerPini.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UNet Integration\EnviroUNetPlayer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -190,6 +198,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Photon Integration\EnviroPhotonPlayerAssign.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroCopyLightSettings.cs" />
+     <Compile Include="Assets\Scripts\HUD.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Sany Project\Terrain\Flooded_Grounds\PostProcessing\Runtime\Models\FogModel.cs" />
      <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroCore.cs" />
