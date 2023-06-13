@@ -1,7 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Dicky Project/3d/obstacle/tentacle-plant/source/model/model/Materials/phong1_albedo.mat.meta
+guid: 9074fb92ec4e08c4582d4df5e0f52804
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+========
 guid: 820dd6a7cc2aa0d40862238a334eb87e
 PrefabImporter:
   externalObjects: {}
+>>>>>>>> macabranchnew:Assets/Prefabs/Game Over.prefab.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,7 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Dicky Project/3d/obstacle/tentacle-plant/source/model/model/Materials/phong1_normal.mat.meta
+guid: eea37b426ba4e40429670df3f31fdf5d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+========
 guid: 94bb2242bc120fe48be78cb13970f7a6
 PrefabImporter:
   externalObjects: {}
+>>>>>>>> macabranchnew:Assets/Prefabs/HUDManagerMaca.prefab.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 

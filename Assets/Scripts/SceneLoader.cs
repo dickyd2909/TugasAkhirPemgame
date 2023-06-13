@@ -16,12 +16,15 @@ public class SceneLoader : MonoBehaviour
     public GameObject close;
     public Slider loadingBar;
     public TextMeshProUGUI loadingText;
+    public Player playerInstance;
     public static bool loadStatus;
-
+    [SerializeField] public bool status;
+    movement move;
+    private int score = 0;
     [SerializeField] int index = 0;
     [SerializeField] int currIndex = 0;
 
-
+    private GameObject textobj;
     
 
     void Start()
@@ -37,23 +40,46 @@ public class SceneLoader : MonoBehaviour
         } 
         
     }
+
+    void update()
+    {
+        SaveGamePlayer();
+    }
     public void LoadSaveGame (int sceneIndex) {
         loadingScreens.SetActive(true);
         StartCoroutine(LoadAsync(sceneIndex));
         loadStatus = true;
+        status = true;
+        PlayerPrefs.SetInt("stat", status?1:0);
+        Debug.Log(PlayerPrefs.GetInt("stat"));
+    }
+    public void MainMenu (int sceneIndex) {
+        
+        // loadingScreens.SetActive(true);
+        // StartCoroutine(LoadAsync(sceneIndex));
+        // loadStatus = true;
+        // SaveGamePlayer();
+    }
+
+    public void SaveGamePlayer () {
+        move = GameObject.Find("Player").GetComponent<movement>();
+        
+        SaveSystem.SavePlayer(playerInstance);
+        Debug.Log(move.score);
+        PlayerPrefs.SetInt("Score", move.score);
+        // loadingScreens.SetActive(true);
+        // StartCoroutine(LoadAsync(sceneIndex));
+        // loadStatus = false;
     }
 
     public void loadlevel (int sceneIndex) {
-        
+        PlayerPrefs.SetInt("stat", 0);
+        PlayerPrefs.SetInt("Score", 0);
         loadingScreens.SetActive(true);
         StartCoroutine(LoadAsync(sceneIndex));
         loadStatus = false;
     }
-    public void SaveGame (int sceneIndex) {
-        loadingScreens.SetActive(true);
-        StartCoroutine(LoadAsync(sceneIndex));
-        loadStatus = true;
-    }
+    
 
     public void AboutGame(){
         about.SetActive(true);
